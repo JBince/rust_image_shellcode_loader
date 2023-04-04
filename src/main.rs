@@ -18,7 +18,7 @@ fn main() {
 fn load() {
 
     //Set key and IV values for decryption
-    let key = b"6yqgH6Kz*47uHDpN5zq*K*zM2b0NhNjU";
+    let key = b"This is a key and it's 32 bytes!";
     let iv = b"This is 16 bytes!!";
 
     //Recreate cipher used to encrypt shellcode
